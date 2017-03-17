@@ -5,6 +5,7 @@
 kafka modules defines Kafka client classes
 """
 
+from __future__ import unicode_literals
 from .base import IConnect, IProduce, IConsume
 from .consts import KafkaConfKeys
 import kafka
