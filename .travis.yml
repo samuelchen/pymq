@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.4"   # working version
+  - "2.7"
+env:
+  # no for now
+install:
+  # Build/test dependencies
+  - pip install -r requirements.txt
+  - pip install -r requirements.test.txt
+before_script:
+  # no for now
+script:
+  # Normal tests
+  - nosetests --with-coverage --cover-erase --cover-package=mq --where=tests

@@ -1,2 +1,2 @@
 # pymq
-A lib to connect differnt Message Queues via an abstacted way.
+A python library to connect different Message Queues such as RabbitMQ, Kafka and so on.
